@@ -1,0 +1,71 @@
+Task 1:
+1:
+float f = 3.8; 
+float * ptr = &f;
+
+2: 
+long *func1(int, int)
+
+3:
+char *func2( const *char)
+
+4:
+int * ipa[20];
+
+5:
+char ** ipa[][10] = {"cyan", "magenta", "yellow", "black"}
+
+Task 2
+
+1:
+1100 as it is the mempry address of u
+
+2:
+1101 as it is the mempry address of v
+
+3:
+1101 as it is the mempry address of v
+
+4:
+66 as it is the character B
+
+5: 
+67 as it is the character c
+
+Task 3:
+
+1:
+57 80
+80 80
+
+2:
+int1 prints 57, as that is what it is assigned right before the print statement
+int2 prints 80, as it is assigned to intPtr1, which is pointing to the same memory address as int2
+*intPtr1 prints 80, as that is what it is assigned right before the print statement
+*intPtr2 prints 80, as is it the same as intPtr1 and since that is 80 so is intPtr2
+
+Task 4:
+1:
+1102 as it is the address of a;
+
+2: 
+1114 as it is the address of pa;
+
+3: 
+1120, as it is 1118 + 2. 
+
+Task 5:
+1:
+strPtr = seasons;
+  for(int i=0; i<4;i++) {
+          cout<<*strPtr<<endl;
+          strPtr++;
+  }
+
+2:
+
+strPtr = seasons;
+  for(int i=0; i<4;i++) {
+          free(strPtr);
+          strPtr++;
+  }
